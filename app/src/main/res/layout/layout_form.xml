@@ -2,10 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                              xmlns:app="http://schemas.android.com/apk/res-auto"
                                              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+                                             android:layout_height="match_parent">
 
     <TextView android:layout_width="wrap_content"
-              android:text="nama"
+              android:text="@string/nama"
               android:layout_height="wrap_content"
               app:layout_constraintStart_toStartOf="parent"
               android:layout_marginStart="8dp"
@@ -15,14 +15,14 @@
 
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:hint="nama nya apa"
+              android:hint="@string/nama_nya_apa"
               android:layout_marginTop="8dp"
               app:layout_constraintTop_toBottomOf="@+id/textView1"
               app:layout_constraintStart_toStartOf="parent"
               android:layout_marginStart="8dp" android:id="@+id/editText"/>
 
     <TextView android:layout_width="wrap_content"
-              android:text="Salary"
+              android:text="@string/salary"
               android:layout_marginTop="16dp"
               android:layout_height="wrap_content"
               app:layout_constraintStart_toStartOf="parent"
@@ -33,13 +33,13 @@
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_marginTop="8dp"
-              android:hint="Salarynya piro"
+              android:hint="@string/salarynya_piro"
               app:layout_constraintTop_toBottomOf="@+id/salary"
               app:layout_constraintStart_toStartOf="parent"
               android:layout_marginStart="8dp" android:id="@+id/editText3"/>
 
     <TextView android:layout_width="wrap_content"
-              android:text="Umur"
+              android:text="@string/umur"
               android:layout_marginTop="16dp"
               android:layout_height="wrap_content"
               app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +50,7 @@
     <EditText android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_marginTop="8dp"
-              android:hint="umur ne"
+              android:hint="@string/umur_ne"
               android:id="@+id/umurEdittext"
               app:layout_constraintTop_toBottomOf="@+id/umur"
               app:layout_constraintStart_toStartOf="parent"
@@ -58,12 +58,24 @@
 
     <Button android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Simpan"
+            android:text="@string/simpan"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="16dp"
             app:layout_constraintTop_toBottomOf="@+id/umurEdittext"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            android:id="@+id/button2"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lihat_data"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/button2"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"
+            android:id="@+id/btn_lihatData"
+            app:layout_constraintHorizontal_bias="0.511"/>
 
 
 </android.support.constraint.ConstraintLayout>

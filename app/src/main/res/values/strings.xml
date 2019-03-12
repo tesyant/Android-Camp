@@ -3,4 +3,12 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="simpan">Simpan</string>
+    <string name="umur_ne">umur ne</string>
+    <string name="umur">Umur</string>
+    <string name="salarynya_piro">Salarynya piro</string>
+    <string name="salary">Salary</string>
+    <string name="nama_nya_apa">nama nya apa</string>
+    <string name="nama">nama</string>
 </resources>

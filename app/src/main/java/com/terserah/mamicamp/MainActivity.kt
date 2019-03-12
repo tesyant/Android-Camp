@@ -3,7 +3,6 @@ package com.terserah.mamicamp
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
-import android.widget.Toast
 import kotlinx.android.synthetic.main.layout_main_activity_constraint.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,12 +17,12 @@ class MainActivity : AppCompatActivity() {
         TextView3.text = "Hobi"
         TextView4.text = "Laki atau Perempuan"
 
-        Button.text = "Iki Button"
-
-        Button.setOnClickListener {
-            Toast.makeText(MainActivity@this, TextView1.text.toString(), Toast.LENGTH_SHORT).show()
-            TextView4.text = "Mantaaab"
-        }
+//        ButtonList.text = "Iki Button"
+//
+//        ButtonList.setOnClickListener {
+//            Toast.makeText(MainActivity@this, TextView1.text.toString(), Toast.LENGTH_SHORT).show()
+//            TextView4.text = "Mantaaab"
+//        }
 
     }
 

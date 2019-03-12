@@ -1,7 +1,10 @@
 package com.terserah.mamicamp
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.github.kittinunf.fuel.Fuel
+import kotlinx.android.synthetic.main.layout_form.*
 
 /*
 * 1. Buat Pojo Employee
@@ -17,6 +20,12 @@ class FormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.layout_form)
+        btn_lihatData.setOnClickListener {
+            val intent = Intent(FormActivity@this, EmployeeListActivity::class.java)
+            startActivity(intent)
+        }
+
+        Fuel
     }
 
 }
